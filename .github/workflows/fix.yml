@@ -16,7 +16,7 @@
 #
 #    steps:
 #      - name: Checkout (trustwallet repo, secret token)
-#        uses: actions/checkout@v3
+#        uses: actions/checkout@v7
 #        with:
 #          # Use trust-ci fine-grained PAT to checkout and later commit the code
 #          # Do not use for forked repos
